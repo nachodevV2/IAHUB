@@ -32,4 +32,6 @@ local Window = Rayfield:CreateWindow({
 
  local Section = Tab:CreateSection("⭕ | Welcome")
  local Label = Tab:CreateLabel("A quick tour of Infinity Alpha Hub")
- local Paragraph = Tab:CreateParagraph({Title = "🔴 | Features", Content = "Infinity Alpha has a range of features that are always"})
+ local Paragraph = Tab:CreateParagraph({Title = "🔴 | Features", Content = "Infinity Alpha has a range of features that are always reliable. Choose from a wide range of modules to either troll, play, or have fun!"})
+ local Paragraph = Tab:CreateParagraph({Title = "🟠 | Customisation", Content = "You can rely on Infinity Alpha to give you the most clean options of colour schemes and a sleek GUI, powered by Rayfield."})
+ local Paragraph = Tab:CreateParagraph({Title = "🟡 | Superior", Content = "IA has a wide range of modules and other scripts that you can use to push yourself over the top, with extremely good bypasses."})
