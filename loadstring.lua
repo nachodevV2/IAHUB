@@ -26,15 +26,25 @@ local Window = Rayfield:CreateWindow({
     }
  })
 
+-- Boot-up notifications
+
+Rayfield:Notify({
+   Title = "Warning",
+   Content = "Although we are working hard on AntiCheat bypasses, we can not ensure that you will not be banned.",
+   Duration = 6.5,
+   Image = 12739766654,
+   Actions = { -- Notification Buttons
+      Ignore = {
+         Name = "Noted.",
+         Callback = function()
+         print("The user tapped Okay!")
+      end
+   },
+},
+})
+
 -- Home
 
- local Tab = Window:CreateTab("Home", 12730639613)
+ local Tab = Window:CreateTab("Home", 12739766654)
 
- local Section = Tab:CreateSection("⭕ | Welcome")
- local Label = Tab:CreateLabel("A quick tour of Infinity Alpha Hub")
- local Label = Tab:CreateLabel("🔴 | Features")
- local Label = Tab:CreateLabel("Infinity Alpha has a range of features that are always reliable. Choose from a wide range of modules to either troll, play, or have fun!") 
- local Label = Tab:CreateLabel("🟠 | Customisation")
- local Label = Tab:CreateLabel("You can rely on Infinity Alpha to give you the most clean options of colour schemes and a sleek GUI, powered by Rayfield.")
- local Label = Tab:CreateLabel("🟡 | Superior")
- local Label = Tab:CreateLabel("IA has a wide range of modules and other scripts that you can use to push yourself over the top, with extremely good bypasses.")
+ local Section = Tab:CreateSection("👋 | Welcome")
