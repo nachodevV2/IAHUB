@@ -22,7 +22,7 @@ local Window = Rayfield:CreateWindow({
        FileName = "IAKey",
        SaveKey = true,
        GrabKeyFromSite = false, -- keep to false pls
-       Key = "l298HOGa6pinwtFLo5dlxh2aQVpqa8gp"
+       Key = "hi" -- temp key l298HOGa6pinwtFLo5dlxh2aQVpqa8gp
     }
  })
 
