@@ -35,9 +35,8 @@ Rayfield:Notify({
    Image = 12739766654,
    Actions = { -- Notification Buttons
       Ignore = {
-         Name = "Noted.",
+         Name = "Ok.",
          Callback = function()
-         print("The user tapped Okay!")
       end
    },
 },
