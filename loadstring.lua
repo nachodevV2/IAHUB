@@ -47,16 +47,16 @@ Rayfield:Notify({
  local Tab = Window:CreateTab("Home", 12739766654)
 
  -- Welcome
- local Section = Tab:CreateSection("👋 | Welcome")
+ local Section = Tab:CreateSection("Welcome")
  local Paragraph = Tab:CreateParagraph({Title = "Welcome!", Content = "Welcome to Infinity Alpha Hub! This is the universal version for all games. No bypasses here, just general modules."})
 
  -- Tutorial
 
- local Section = Tab:CreateSection("❓| What to do")
+ local Section = Tab:CreateSection("What to do")
 
 -- Update Log
- local Section = Tab:CreateSection("ℹ️ | Updates")
- local Paragraph = Tab:CreateParagraph({Title = "‼️ Major Update ‼️", Content = "Well, the only major update is that this is finally out!"})
+ local Section = Tab:CreateSection("Updates")
+ local Paragraph = Tab:CreateParagraph({Title = "Major Update", Content = "Well, the only major update is that this is finally out!"})
  local Paragraph = Tab:CreateParagraph({Title = "Coming soon", Content = "We are working on individual scripts for certain games. Expect this out in about 2 months!"})
 
  -- Important Information
